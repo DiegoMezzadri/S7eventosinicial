@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contactanos</title>
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<meta name="description" content="Servicios de alquiler, livings, para todo tipo de eventos">
+	<meta name="key description" content="S7, EVENTOS, ALQUILER, LIVINGS, MOBILIARIO, AGASAJOS, FIESTAS, EVENTOS, BODAS, CASAMIENTOS, CUMPLEAÑOS">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/estilos.css">
+</head>
+<body>
+	<header id=backgroundHeader class="container-fluid px-0 mgx-0">
+		<div class="principal container-fluid d-flex h-100 align-items-center">
+			<nav class="container-fluid navbar navbar-expand-lg navbar-light">
+			  <a class="navbar-brand" href="../index.html"><img class="rounded-circle" src="../media/s7logo2.png"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+			    <ul class="navbar-nav font-size-large text-center p-0 m-0">
+			      <li class="nav-item">
+				        <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="../paginas/nosotros.html">Nosotros</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="../paginas/productos.html">Productos</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link active" href="../paginas/galeria.html">Galeria<span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="../paginas/Contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+				      </li>
+			    </ul>
+			  </div>
+			</nav>
+		</div>
+	</header>	
+		<section class="container px-5 py-5">
+			<form action="recibe.html" method="GET" enctype="multipart/form-data">
+				<div>
+				  <div class="form-row">
+				    <div class="col-md-6 mb-3">
+				      <label for="validationDefault01">Nombre</label>
+				      <input type="text" class="form-control" id="validationDefault01" value="Ingrese su Nombre" required>
+				    </div>
+				    <div class="col-md-6 mb-3">
+				      <label for="validationDefault02">Apellido</label>
+				      <input type="text" class="form-control" id="validationDefault02" value="Ingrese su Apellido" required>
+				    </div>
+				  </div>
+				  <div class="form-row">
+				    <div class="col-md-6 mb-3">
+				      <label for="validationDefault03">Ciudad</label>
+				      	<select class="form-control">
+				      		<option>Capital Federal</option>
+	  						<option>Gran Buenos Aires</option>
+	  					</select>
+				    </div>
+				    <div class="col-md-6 mb-3">
+				      <label for="validationDefault03">Email</label>
+				      <input type="email" class="form-control" id="validationDefault02" value="ejemplo@mail.com" required>
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleFormControlTextarea1">Ingrese su consulta</label>
+				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				  </div>
+	  				 <button class="container-fluid btn btn-success " type="submit">Enviar consulta</button>
+	  			</div>
+			</form>
+		</section>
+	<script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

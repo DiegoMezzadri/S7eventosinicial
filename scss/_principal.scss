@@ -1,0 +1,19 @@
+$ancho: 100%;
+@for $i from 1 through 12{
+	.miCol-#{$i}{
+		width: ($ancho/12)*$i;
+	}
+}
+
+$sizes: (
+	"small": 12px,
+	"normal": 14px,
+	"regular": 16px,
+	"large":20px,
+	"especial": 40px,
+);
+@each $k, $v in $sizes{
+	.font-size-#{$k}{
+		font-size: $v;
+	}
+}
